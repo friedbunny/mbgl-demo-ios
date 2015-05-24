@@ -1,6 +1,8 @@
-# Mapbox GL for iOS Demo
+# Mapbox GL for iOS Demo/Template
 
 A [Mapbox GL for iOS](https://github.com/mapbox/mapbox-gl-native) demo/template app to help developers get started with minimal effort.
+
+![Would be nice to live in London, wouldn't it.](https://cloud.githubusercontent.com/assets/1198851/7786397/b7b2cf6c-0180-11e5-88cd-58647bbe3591.png)
 
 ## Getting started
 
