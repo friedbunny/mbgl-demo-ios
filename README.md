@@ -16,6 +16,10 @@ A [Mapbox GL for iOS](https://github.com/mapbox/mapbox-gl-native) demo/template 
 
 This demo/template uses storyboards, but you don’t have to: [here’s an example of programmatic instantiation](https://github.com/mapbox/mapbox-gl-native/blob/b7b4515d4883f7da1fdcfb4d5aff7a2f3118ae86/ios/app/MBXViewController.mm#L55-L59) from the official demo app.
 
+## Demos based on this project
+
+- [**Ambient Light**](https://github.com/friedbunny/ambient-light): Switch map styles based on ambient light.
+
 ## Need help?
 
 If you haven’t already, read the [official project overview from Mapbox](https://www.mapbox.com/mapbox-gl-ios/) and have a look at the [API reference](https://www.mapbox.com/mapbox-gl-ios/api/). The [Mapbox tag on Stack Overflow](http://stackoverflow.com/questions/tagged/mapbox) is a great place to ask questions (that are often answered by Mapboxers). If you’re really stumped, Mapbox also offers [official support via email](https://www.mapbox.com/help/).
