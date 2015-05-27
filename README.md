@@ -22,7 +22,11 @@ This demo/template uses storyboards, but you don’t have to: [here’s an examp
 
 ## Need help?
 
-If you haven’t already, read the [official project overview from Mapbox](https://www.mapbox.com/mapbox-gl-ios/) and have a look at the [API reference](https://www.mapbox.com/mapbox-gl-ios/api/). The [Mapbox tag on Stack Overflow](http://stackoverflow.com/questions/tagged/mapbox) is a great place to ask questions (that are often answered by Mapboxers). If you’re really stumped, Mapbox also offers [official support via email](https://www.mapbox.com/help/).
+If you haven’t already, read the [official project overview from Mapbox](https://www.mapbox.com/mapbox-gl-ios/) and have a look at the [API reference](https://www.mapbox.com/mapbox-gl-ios/api/). 
+
+Using this demo project allows you to skip a few steps, but the [First steps with Mapbox GL for iOS Guide](https://www.mapbox.com/guides/first-steps-gl-ios/) is an excellent tutorial that will help you add markers and customize the map style.
+
+The [Mapbox tag on Stack Overflow](http://stackoverflow.com/questions/tagged/mapbox) is a great place to ask questions (that are often answered by Mapboxers). If you’re really stumped, Mapbox also offers [official support via email](https://www.mapbox.com/help/).
 
 ## Found a bug?
 
