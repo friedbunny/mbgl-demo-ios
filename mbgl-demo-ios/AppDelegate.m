@@ -18,7 +18,7 @@
     //   * AppDelegate (here)
     //   * Info.plist via the `MGLMapboxAccessToken` key
     
-    [MGLAccountManager setAccessToken:@"<mapbox-access-token-here>"];
+    [MGLAccountManager setAccessToken:<#your access token#>];
 
     return YES;
 }
