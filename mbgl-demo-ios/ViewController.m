@@ -7,8 +7,7 @@
 //
 
 #import "ViewController.h"
-
-#import <MapboxGL/MapboxGL.h>
+@import Mapbox;
 
 @interface ViewController () <MGLMapViewDelegate>
 
@@ -23,13 +22,10 @@
     [super viewDidLoad];
     
     // NOTE
-    // Set your Mapbox Access Token in AppDelegate.m
+    // Set your Mapbox access token in AppDelegate.m or Info.plist
     
     // set the map to show and follow the user's location (initially)
     self.mapView.userTrackingMode = MGLUserTrackingModeFollow;
-    
-    // hooks up the delegate, not used or necessary here (but a convenient example)
-    self.mapView.delegate = self;
 }
 
 @end

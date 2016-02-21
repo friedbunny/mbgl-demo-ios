@@ -8,7 +8,7 @@
 
 #import "AppDelegate.h"
 
-#import <MapboxGL/MapboxGL.h>
+@import Mapbox;
 
 @implementation AppDelegate
 
@@ -16,9 +16,13 @@
 {
     // Setting the Mapbox access token can happen in one of several places:
     //   * AppDelegate (here)
-    //   * Info.plist via the `MGLMapboxAccessToken` key
-    
-    [MGLAccountManager setAccessToken:<#your access token#>];
+    //   * Info.plist via a `MGLMapboxAccessToken` key with a string value
+    //
+    // Read more about Mapbox access tokens: https://www.mapbox.com/help/create-api-access-token/
+
+    [MGLAccountManager setAccessToken:@"<# mapbox-access-token-here #>"];
+
+    NSAssert(![[MGLAccountManager accessToken] isEqualToString:@"<# mapbox-access-token-here #>"], @"You must enter your Mapbox access token in order for this app to load. Look in AppDelegate.h for how to set your access token.");
 
     return YES;
 }
