@@ -12,7 +12,7 @@
 1. Insert your [Mapbox access token](https://www.mapbox.com/developers/api/#access-tokens) in [`AppDelegate.m`](mbgl-demo-ios/AppDelegate.m#L23)
 1. Build amazing cartographic things
 
-![Xcode](https://cloud.githubusercontent.com/assets/1198851/13201165/3d11b940-d834-11e5-8509-bd711865b03d.jpg)
+![Xcode](https://cloud.githubusercontent.com/assets/1198851/13201228/e643b7ce-d835-11e5-8790-16c20f0ac59c.png)
 
 ## Don’t like storyboards?
 
