@@ -12,6 +12,8 @@
 1. Insert your [Mapbox access token](https://www.mapbox.com/developers/api/#access-tokens) in [`AppDelegate.m`](mbgl-demo-ios/AppDelegate.m#L23)
 1. Build amazing cartographic things
 
+![Xcode](https://cloud.githubusercontent.com/assets/1198851/13201165/3d11b940-d834-11e5-8509-bd711865b03d.jpg)
+
 ## Don’t like storyboards?
 
 This demo/template uses storyboards, but you don’t have to: [here’s an example of programmatic instantiation](https://github.com/mapbox/mapbox-gl-native/blob/8219d72135c007c44b61a781c95c817a8618c478/platform/ios/app/MBXViewController.mm#L65-L68) from the official demo app.
