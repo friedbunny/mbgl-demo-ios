@@ -7,14 +7,14 @@
 ## Getting started
 
 1.  Clone or [download](https://github.com/friedbunny/mbgl-demo-ios/archive/master.zip) this repository
-1. Run `pod install` to download the Mapbox GL library via [Cocoapods](https://cocoapods.org)
+1. Run `pod install` to download the Mapbox iOS SDK via [Cocoapods](https://cocoapods.org)
 1. Open `mbgl-demo-ios.xcworkspace` in Xcode
 1. Insert your [Mapbox access token](https://www.mapbox.com/developers/api/#access-tokens) in [`AppDelegate.m`](mbgl-demo-ios/AppDelegate.m#L23)
 1. Build amazing cartographic things
 
 ![Xcode](https://cloud.githubusercontent.com/assets/1198851/13201228/e643b7ce-d835-11e5-8790-16c20f0ac59c.png)
 
-## Don’t like storyboards?
+## Don’t use storyboards?
 
 This demo/template uses storyboards, but you don’t have to: [here’s an example of programmatic instantiation](https://github.com/mapbox/mapbox-gl-native/blob/8219d72135c007c44b61a781c95c817a8618c478/platform/ios/app/MBXViewController.mm#L65-L68) from the official demo app.
 
