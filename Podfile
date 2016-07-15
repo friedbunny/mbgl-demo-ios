@@ -2,5 +2,5 @@ platform :ios, '8.0'
 use_frameworks!
 
 target 'mbgl-demo-ios' do
-  pod 'Mapbox-iOS-SDK', '~> 3.2.3'
+  pod 'Mapbox-iOS-SDK', '~> 3.3.0'
 end
